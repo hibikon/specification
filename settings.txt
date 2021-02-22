@@ -1,0 +1,40 @@
+========== Gitコマンド ==========
+
+$ git <command>
+
+
+
+========== GitHub基本設定 ==========
+
+# Gitユーザ設定
+
+$ git config --global user.name "<your username>"
+
+$ git config --global user.email "<your email>"
+
+（--globalを付けた場合、ユーザのシステム全体の設定) ~/.gitconfig
+
+(--globalを付けない場合、実行したリポジトリ独自の設定) .git/config
+
+
+# ローカルリポの情報が入っているフォルダ
+
+<local-repo-path>/.git
+
+
+# 紐づいているリモートリポのURLを確認
+
+$ git remote -v
+
+
+
+========== Git clone ==========
+
+#リモートリポからcloneしてローカルリポを作成
+
+$ git clone <remote-repo-url>  (リモートリポURLはGitHub上で取得)
+
+
+
+
+
