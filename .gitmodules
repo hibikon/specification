@@ -1,0 +1,3 @@
+[submodule "github-specification"]
+	path = github-specification
+	url = git@github.com:hibikon/github-specification.git
