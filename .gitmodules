@@ -4,3 +4,6 @@
 [submodule "python-specification"]
 	path = python-specification
 	url = git@github.com:hibikon/python-specification.git
+[submodule "java-specification"]
+	path = java-specification
+	url = git@github.com:hibikon/java-specification.git
