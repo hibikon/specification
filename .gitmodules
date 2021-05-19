@@ -7,3 +7,6 @@
 [submodule "java-specification"]
 	path = java-specification
 	url = git@github.com:hibikon/java-specification.git
+[submodule "postgreSQL-specification"]
+	path = postgreSQL-specification
+	url = git@github.com:hibikon/postgreSQL-specification.git
